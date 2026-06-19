@@ -3,7 +3,7 @@ document.getElementById("studentForm").addEventListener("submit", function(event
     event.preventDefault();
 
     const name = document.getElementById("name").value.trim();
-    const age = document.getElementById("age").value.trim();
+    const dob = document.getElementById("dob").value;
     const address = document.getElementById("address").value.trim();
     const pincode = document.getElementById("pincode").value.trim();
     const mobile = document.getElementById("mobile").value.trim();
